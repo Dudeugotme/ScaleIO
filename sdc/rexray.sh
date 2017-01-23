@@ -2,8 +2,8 @@
 
 mkdir -p /etc/rexray
 
-wget https://dl.bintray.com/emccode/rexray/stable/0.3.3/rexray-Linux-x86_64-0.3.3.tar.gz
-tar -C /usr/bin/ -xzf rexray-Linux-x86_64-0.3.3.tar.gz
+wget https://dl.bintray.com/emccode/rexray/stable/0.3.3/rexray-Linux-i386-0.3.3.tar.gz
+tar -C /usr/bin/ -xzf rexray-Linux-i386-0.3.3.tar.gz
 
 cat > /etc/rexray/config.yml << EOF
 rexray:
