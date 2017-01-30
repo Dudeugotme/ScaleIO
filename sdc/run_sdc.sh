@@ -30,8 +30,8 @@ rpm -Uvh EMC-ScaleIO-sdc-1.32-3455.5.el7.x86_64.rpm || echo "already..installed.
 /opt/emc/scaleio/sdc/bin/drv_cfg --add_mdm --ip $MDM_IP	|| echo "already..added"
 
 mkdir -p /etc/rexray
-wget https://dl.bintray.com/emccode/rexray/stable/0.3.3/rexray-Linux-x86_64-0.3.3.tar.gz
-tar -C /usr/bin/ -xzf rexray-Linux-x86_64-0.3.3.tar.gz
+wget https://dl.bintray.com/emccode/rexray/stable/0.3.3/rexray-Linux-i386-0.3.3.tar.gz
+tar -C /usr/bin/ -xzf rexray-Linux-i386-0.3.3.tar.gz
 
 rm -rf /etc/rexray/config.yml
 touch /etc/rexray/config.yml
