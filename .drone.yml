@@ -4,5 +4,5 @@ publish:
     email: s1rxploit@gmail.com
     repo: sdc
     tag: latest
-    file: sdc/Dockerfile
+    file: /sdc/Dockerfile
     insecure: true
