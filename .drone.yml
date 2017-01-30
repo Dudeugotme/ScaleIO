@@ -1,0 +1,29 @@
+publish:
+  docker:
+    registry: antic.website:5000
+    email: s1rxploit@gmail.com
+    repo: scaleio/sdc
+    tag: latest
+    file: sdc/Dockerfile
+    insecure: true
+  docker:
+    registry: antic.website:5000
+    email: s1rxploit@gmail.com
+    repo: scaleio/mdm
+    tag: latest
+    file: mdm/Dockerfile
+    insecure: true
+  docker:
+    registry: antic.website:5000
+    email: s1rxploit@gmail.com
+    repo: scaleio/sds
+    tag: latest
+    file: sds/Dockerfile
+    insecure: true
+  docker:
+    registry: antic.website:5000
+    email: s1rxploit@gmail.com
+    repo: scaleio/tb
+    tag: latest
+    file: tb/Dockerfile
+    insecure: true
